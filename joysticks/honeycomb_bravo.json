@@ -1,0 +1,103 @@
+{
+  "productname": "HCBravo",
+  "USB_VID": "0x294B",
+  "USB_PID": "0x1901",
+  "USB_FEAT_length": 4,
+  "Functions": [
+    {
+      "FunName": "LED",
+      "FunIndex": 1,
+      "SubFunctions": [
+        {
+          "int": "b1b2b3b4raw"
+        }
+      ],
+      "SubBitFunctions": [
+        {
+          "AP.hdg": "t0"
+        },
+        {
+          "AP.nav": "t1"
+        },
+        {
+          "AP.apr": "t2"
+        },
+        {
+          "AP.rev": "t3"
+        },
+        {
+          "AP.alt": "t4"
+        },
+        {
+          "AP.vs": "t5"
+        },
+        {
+          "AP.ias": "t6"
+        },
+        {
+          "AP.autopilot": "t7"
+        },
+        {
+          "Gear.LeftGreen": "t8"
+        },
+        {
+          "Gear.LeftRed": "t9"
+        },
+        {
+          "Gear.CenterGreen": "t10"
+        },
+        {
+          "Gear.CenterRed": "t11"
+        },
+        {
+          "Gear.RightGreen": "t12"
+        },
+        {
+          "Gear.RightRed": "t13"
+        },
+        {
+          "Light.MasterWarn": "t14"
+        },
+        {
+          "Light.EngineFire": "t15"
+        },
+        {
+          "Light.LowOil": "t16"
+        },
+        {
+          "Light.LowFuel": "t17"
+        },
+        {
+          "Light.Antiice": "t18"
+        },
+        {
+          "Light.Starter": "t19"
+        },
+        {
+          "Light.APU": "t20"
+        },
+        {
+          "Light.MasterCaution": "t21"
+        },
+        {
+          "Light.Vacuum": "t22"
+        },
+        {
+          "Light.LowHydPressURE": "t23"
+        },
+        {
+          "Lights.AuxFuelPump": "t24"
+        },
+        {
+          "Lights.ParkingBrake": "t25"
+        },
+        {
+          "Lights.LowVolts": "t26"
+        },
+        {
+          "Lights.door": "t27"
+        }
+      ]
+    }
+  ]
+}
