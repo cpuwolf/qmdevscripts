@@ -1,5 +1,5 @@
 {
-  "productname": "HCBravo",
+  "ProductName": "HCBravo",
   "USB_VID": "0x294B",
   "USB_PID": "0x1901",
   "USB_FEAT_length": 4,
