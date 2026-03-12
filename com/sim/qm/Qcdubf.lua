@@ -5,7 +5,7 @@
 local Qcdubf = oop.class(com.sim.qm.Qcdub)
 
 function Qcdubf:init()
-    self.QmdevId = 0x105
+    self.QmdevId = 0x40000005
     -- uluaLog('Qcdubf:init'..self.QmdevId)
 end
 
