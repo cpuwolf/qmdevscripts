@@ -2,7 +2,9 @@
   "ProductName": "HCBravo",
   "USB_VID": "0x294B",
   "USB_PID": "0x1901",
-  "USB_FEAT_length": 4,
+  "USB_FEAT_length": 5,
+  "USB_REPORT_ID": 1,
+  "USB_KEY_OFFSET": 96,
   "Functions": [
     {
       "FunName": "LED",
